@@ -1,0 +1,24 @@
+# On Device
+
+# Install python3
+sudo apt-get update
+sudo apt install python3
+sudo apt install python3-pip
+
+
+
+# RTIMULib for gyro/accel
+
+sudo apt-get install python-dev
+sudo python3 setup.py install
+
+
+sudo apt-get install libatlas-base-dev
+
+wget https://github.com/lhelontra/tensorflow-on-arm/releases/download/v2.3.0/tensorflow-2.3.0-cp37-none-linux_armv6l.whl
+
+sudo pip3 install tensorflow-2.3.0-cp37-none-linux_armv6l.whl
+
+sudo pip3 install numpy
+
+sudo pip3 install h5py
